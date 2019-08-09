@@ -35,9 +35,7 @@ h1 {
   width: 100px;
 }
 
-.flex_conteiner {
-  display: flex;
-}
+.flex_conteiner {  display: flex;}
 
 .principal_header {
   width: auto;
@@ -60,15 +58,33 @@ h1 {
 .principal_header nav ul li a>h2 {
   font-family: "Arial black";
   font-size: 20px;
+  margin-bottom: 10px; 
 }
 
-.principal_header nav ul li a span { font-style: italic; }
+.principal_header nav ul li a span { 
+  font-style: italic; 
+}
 
 .nav_icon {
   width: 60px;
   height: 60px;
   margin: 0 auto;
 }
+
+.nav_topics {
+  width: 125px;
+  height: 50px;
+  border: 3px solid white;
+  border-radius: 9px;
+  margin-top: 45px; 
+}
+
+.nav_topics a>i { 
+  padding: 5px 0 4px 6px; 
+  font-size: 18px;
+}
+
+.nav_topics a * { margin: 8px 4.5px; }
 
 .main_header {
   position: relative;
