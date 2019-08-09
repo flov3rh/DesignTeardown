@@ -20,11 +20,12 @@ q:before, q:after { content:''; }
 /*END OF RESET CSS*/
 
 li {
-
+  flex-direction: column;
 }
 
 ul {
   padding-top: 23px;
+  justify-content:  space-around;
 }
 
 h1 {
@@ -36,7 +37,6 @@ h1 {
 
 .flex_conteiner {
   display: flex;
-  justify-content: space-around;
 }
 
 .principal_header {
@@ -47,13 +47,27 @@ h1 {
 
 .principal_header nav ul li {
   list-style: none;
-  margin-left: -135px;
+  font-family: serif;
+  margin-left: -78px;
 }
+
+.principal_header nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.principal_header nav ul li a>h2 {
+  font-family: "Arial black";
+  font-size: 20px;
+}
+
+.principal_header nav ul li a span { font-style: italic; }
 
 .nav_icon {
   width: 60px;
   height: 60px;
-  background-color: white;
+  margin: 0 auto;
 }
 
 .main_header {
@@ -62,10 +76,6 @@ h1 {
   right: 0;
   background-color: blue;
   height: 80px;
-}
-
-.center {
-
 }
 
 .box1 {
@@ -96,7 +106,6 @@ h1 {
   display: grid;
   grid-template-columns: 1 1;
 }
-
 
 .articles { 
   background-image: url(../img/articles.png); 
