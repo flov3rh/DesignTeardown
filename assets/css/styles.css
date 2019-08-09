@@ -19,18 +19,12 @@ q:before, q:after { content:''; }
 
 /*END OF RESET CSS*/
 
-.principal_header {
-  width: auto;
-  height: 100px;
-  background-color: red;
-}
-
 li {
-  list-style: none;
+
 }
 
 ul {
-  padding-top: 40px;
+  padding-top: 23px;
 }
 
 h1 {
@@ -43,6 +37,23 @@ h1 {
 .flex_conteiner {
   display: flex;
   justify-content: space-around;
+}
+
+.principal_header {
+  width: auto;
+  height: 179px;
+  background-color: #D33A2C;
+}
+
+.principal_header nav ul li {
+  list-style: none;
+  margin-left: -135px;
+}
+
+.nav_icon {
+  width: 60px;
+  height: 60px;
+  background-color: white;
 }
 
 .main_header {
@@ -84,4 +95,32 @@ h1 {
 .latest_articles {
   display: grid;
   grid-template-columns: 1 1;
+}
+
+
+.articles { 
+  background-image: url(../img/articles.png); 
+  transition: background 0.5s;
+}
+
+.articles:hover { background-image: url(../img/articles_hover.png); }
+
+.books { 
+  background-image: url(../img/books.png); 
+  transition: background 0.5s;
+}
+
+.events {
+  background-image: url(../img/events.png); 
+  transition: background 0.5s;
+}
+
+.jobs { 
+  background-image: url(../img/jobs.png); 
+  transition: background 0.5s;
+}
+
+.membership { 
+  background-image: url(../img/membership.png); 
+  transition: background 0.5s;
 }
