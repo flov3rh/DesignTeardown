@@ -55,19 +55,22 @@ h1 {
   text-align: center;
 }
 
-.principal_header nav ul li a>h2 {
+.principal_header nav ul li a div>h2 {
   font-family: "Arial black";
   font-size: 20px;
-  margin-bottom: 10px; 
+  padding-top: 66px; 
+  margin-bottom: 5px; 
 }
 
-.principal_header nav ul li a span { 
-  font-style: italic; 
-}
+.principal_header nav ul li a>h2 { font: 20px "Arial black"; }
+
+.nav_link:hover{ color:black; }
+
+.principal_header nav ul li a span {  font-style: italic; }
 
 .nav_icon {
-  width: 60px;
-  height: 60px;
+  width: 150px;
+  height: 130px;
   margin: 0 auto;
 }
 
@@ -124,28 +127,39 @@ h1 {
 }
 
 .articles { 
-  background-image: url(../img/articles.png); 
+  background: url(../img/articles.png) no-repeat center top;
   transition: background 0.5s;
 }
 
-.articles:hover { background-image: url(../img/articles_hover.png); }
+.articles:hover { background: url(../img/articles_hover.png) no-repeat center top; }
 
 .books { 
-  background-image: url(../img/books.png); 
+  background: url(../img/books.png) no-repeat center top; 
   transition: background 0.5s;
 }
+
+.books:hover { background: url(../img/books_hover.png) no-repeat center top; }
 
 .events {
-  background-image: url(../img/events.png); 
+  background: url(../img/events.png) no-repeat center top; 
   transition: background 0.5s;
 }
+
+.events:hover { background: url(../img/events_hover.png) no-repeat center top; }
 
 .jobs { 
-  background-image: url(../img/jobs.png); 
+  background: url(../img/jobs.png) no-repeat center top; 
   transition: background 0.5s;
 }
 
+.jobs:hover { background: url(../img/jobs_hover.png) no-repeat center top; }
+
 .membership { 
-  background-image: url(../img/membership.png); 
+  background: url(../img/membership.png) no-repeat center top; 
   transition: background 0.5s;
 }
+
+.membership:hover { background: url(../img/membership_hover.png) no-repeat center top; }
+
+/* ids */
+
