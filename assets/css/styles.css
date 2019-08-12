@@ -73,13 +73,13 @@ h1 {
 .principal_header nav ul li a div>h2 {
   font-family: "Arial black";
   font-weight: bold;
-  font-size: 30px;
+  font-size: 1.3em;
   padding-top: 66px;
   margin-bottom: 5px;
 }
 
 .principal_header nav ul li a>h2 {
-  font: 25px "Arial black";
+  font: 1.3em "Arial black";
   font-weight: bold;
 }
 
@@ -221,7 +221,7 @@ h1 {
 }
 
 .smash_icon {
-  background-image: url("../img/smashing_s.png");
+  background-image: url("../img/smashing_magazine.png");
   background-repeat: no-repeat;
   width: 255px;
   height: 100px;
