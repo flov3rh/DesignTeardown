@@ -31,8 +31,11 @@ ul {
 h1 {
   display: block;
   position: relative;
-  padding-top: 20px;
-  width: 100px;
+  padding: 20px 0px;
+  width: 350px;
+  height: 100px;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .flex_conteiner {  display: flex;}
@@ -68,6 +71,32 @@ h1 {
   font-weight: bold;
 }
 
+.main_header_button {
+  background-color: transparent;
+  border-radius: 10px;
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  border-color: white;
+  padding: 0px;
+  height: 50px;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.main_header_button:hover {
+  background-color: white;
+  border-radius: 10px;
+  color: red;
+  font-size: 19px;
+  font-weight: bold;
+  border-color: white;
+  padding: 0px;
+  height: 50px;
+  min-width: 200px;
+  max-width: 300px;
+}
+
 .nav_link:hover{ color:black; }
 
 .principal_header nav ul li a span {  font-style: italic; }
@@ -95,10 +124,12 @@ h1 {
 
 .main_header {
   position: relative;
+  justify-content: space-between;
+  display: flex;
   left: 0;
   right: 0;
   background-color: blue;
-  height: 80px;
+  height: 100px;
 }
 
 .box1 {
@@ -164,5 +195,15 @@ h1 {
 }
 
 .membership:hover { background: url(../img/membership_hover.png) no-repeat center top; }
+
+.center {
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  background-color: white;
+  margin-left: calc(50% - 140px);
+}
 
 /* ids */
