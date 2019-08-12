@@ -19,6 +19,18 @@ q:before, q:after { content:''; }
 
 /*END OF RESET CSS*/
 
+/*MEDIA QUERy*/
+@media only screen and (max-width: 600px) {
+  .nav_icon {
+    visibility: hidden;
+    display: none;
+  }
+  .smash_icon {
+    background-image: url("../img/smashing_magazine.png");
+  }
+}
+
+
 li {
   flex-direction: column;
 }
@@ -72,6 +84,8 @@ h1 {
 }
 
 .main_header_button {
+  margin-top: 25px;
+  margin-right: 60px;
   background-color: transparent;
   border-radius: 10px;
   color: white;
@@ -204,6 +218,13 @@ h1 {
   align-content: center;
   background-color: white;
   margin-left: calc(50% - 140px);
+}
+
+.smash_icon {
+  background-image: url("../img/smashing_s.png");
+  background-repeat: no-repeat;
+  width: 255px;
+  height: 100px;
 }
 
 /* ids */
