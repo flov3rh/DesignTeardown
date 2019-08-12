@@ -57,12 +57,16 @@ h1 {
 
 .principal_header nav ul li a div>h2 {
   font-family: "Arial black";
-  font-size: 20px;
-  padding-top: 66px; 
-  margin-bottom: 5px; 
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 66px;
+  margin-bottom: 5px;
 }
 
-.principal_header nav ul li a>h2 { font: 20px "Arial black"; }
+.principal_header nav ul li a>h2 {
+  font: 25px "Arial black";
+  font-weight: bold;
+}
 
 .nav_link:hover{ color:black; }
 
@@ -79,11 +83,11 @@ h1 {
   height: 50px;
   border: 3px solid white;
   border-radius: 9px;
-  margin-top: 45px; 
+  margin-top: 45px;
 }
 
-.nav_topics a>i { 
-  padding: 5px 0 4px 6px; 
+.nav_topics a>i {
+  padding: 5px 0 4px 6px;
   font-size: 18px;
 }
 
@@ -126,40 +130,39 @@ h1 {
   grid-template-columns: 1 1;
 }
 
-.articles { 
+.articles {
   background: url(../img/articles.png) no-repeat center top;
   transition: background 0.5s;
 }
 
 .articles:hover { background: url(../img/articles_hover.png) no-repeat center top; }
 
-.books { 
-  background: url(../img/books.png) no-repeat center top; 
+.books {
+  background: url(../img/books.png) no-repeat center top;
   transition: background 0.5s;
 }
 
 .books:hover { background: url(../img/books_hover.png) no-repeat center top; }
 
 .events {
-  background: url(../img/events.png) no-repeat center top; 
+  background: url(../img/events.png) no-repeat center top;
   transition: background 0.5s;
 }
 
 .events:hover { background: url(../img/events_hover.png) no-repeat center top; }
 
-.jobs { 
-  background: url(../img/jobs.png) no-repeat center top; 
+.jobs {
+  background: url(../img/jobs.png) no-repeat center top;
   transition: background 0.5s;
 }
 
 .jobs:hover { background: url(../img/jobs_hover.png) no-repeat center top; }
 
-.membership { 
-  background: url(../img/membership.png) no-repeat center top; 
+.membership {
+  background: url(../img/membership.png) no-repeat center top;
   transition: background 0.5s;
 }
 
 .membership:hover { background: url(../img/membership_hover.png) no-repeat center top; }
 
 /* ids */
-
